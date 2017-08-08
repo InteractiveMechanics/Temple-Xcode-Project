@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B78B1DF81F3A3CD200C5C493 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B1DF71F3A3CD200C5C493 /* AppDelegate.swift */; };
+		B78B1DFA1F3A3CD200C5C493 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B1DF91F3A3CD200C5C493 /* ViewController.swift */; };
+		B78B1DFD1F3A3CD200C5C493 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B78B1DFB1F3A3CD200C5C493 /* Main.storyboard */; };
+		B78B1E001F3A3CD200C5C493 /* Zhihua_Temple.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B78B1DFE1F3A3CD200C5C493 /* Zhihua_Temple.xcdatamodeld */; };
+		B78B1E021F3A3CD200C5C493 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B78B1E011F3A3CD200C5C493 /* Assets.xcassets */; };
+		B78B1E051F3A3CD200C5C493 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B78B1E031F3A3CD200C5C493 /* LaunchScreen.storyboard */; };
+		B78B1E101F3A3CD200C5C493 /* Zhihua_TempleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B1E0F1F3A3CD200C5C493 /* Zhihua_TempleTests.swift */; };
+		B78B1E1B1F3A3CD200C5C493 /* Zhihua_TempleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B1E1A1F3A3CD200C5C493 /* Zhihua_TempleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B78B1E0C1F3A3CD200C5C493 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B78B1DEC1F3A3CD200C5C493 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B78B1DF31F3A3CD200C5C493;
+			remoteInfo = "Zhihua Temple";
+		};
+		B78B1E171F3A3CD200C5C493 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B78B1DEC1F3A3CD200C5C493 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B78B1DF31F3A3CD200C5C493;
+			remoteInfo = "Zhihua Temple";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B78B1DF41F3A3CD200C5C493 /* Zhihua Temple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zhihua Temple.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78B1DF71F3A3CD200C5C493 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B78B1DF91F3A3CD200C5C493 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B78B1DFC1F3A3CD200C5C493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B78B1DFF1F3A3CD200C5C493 /* Zhihua_Temple.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zhihua_Temple.xcdatamodel; sourceTree = "<group>"; };
+		B78B1E011F3A3CD200C5C493 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B78B1E041F3A3CD200C5C493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B78B1E061F3A3CD200C5C493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B78B1E0B1F3A3CD200C5C493 /* Zhihua TempleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zhihua TempleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78B1E0F1F3A3CD200C5C493 /* Zhihua_TempleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zhihua_TempleTests.swift; sourceTree = "<group>"; };
+		B78B1E111F3A3CD200C5C493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B78B1E161F3A3CD200C5C493 /* Zhihua TempleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zhihua TempleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78B1E1A1F3A3CD200C5C493 /* Zhihua_TempleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zhihua_TempleUITests.swift; sourceTree = "<group>"; };
+		B78B1E1C1F3A3CD200C5C493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B78B1DF11F3A3CD200C5C493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78B1E081F3A3CD200C5C493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78B1E131F3A3CD200C5C493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B78B1DEB1F3A3CD200C5C493 = {
+			isa = PBXGroup;
+			children = (
+				B78B1DF61F3A3CD200C5C493 /* Zhihua Temple */,
+				B78B1E0E1F3A3CD200C5C493 /* Zhihua TempleTests */,
+				B78B1E191F3A3CD200C5C493 /* Zhihua TempleUITests */,
+				B78B1DF51F3A3CD200C5C493 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B78B1DF51F3A3CD200C5C493 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B78B1DF41F3A3CD200C5C493 /* Zhihua Temple.app */,
+				B78B1E0B1F3A3CD200C5C493 /* Zhihua TempleTests.xctest */,
+				B78B1E161F3A3CD200C5C493 /* Zhihua TempleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B78B1DF61F3A3CD200C5C493 /* Zhihua Temple */ = {
+			isa = PBXGroup;
+			children = (
+				B78B1DF71F3A3CD200C5C493 /* AppDelegate.swift */,
+				B78B1DF91F3A3CD200C5C493 /* ViewController.swift */,
+				B78B1DFB1F3A3CD200C5C493 /* Main.storyboard */,
+				B78B1E011F3A3CD200C5C493 /* Assets.xcassets */,
+				B78B1E031F3A3CD200C5C493 /* LaunchScreen.storyboard */,
+				B78B1E061F3A3CD200C5C493 /* Info.plist */,
+				B78B1DFE1F3A3CD200C5C493 /* Zhihua_Temple.xcdatamodeld */,
+			);
+			path = "Zhihua Temple";
+			sourceTree = "<group>";
+		};
+		B78B1E0E1F3A3CD200C5C493 /* Zhihua TempleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B78B1E0F1F3A3CD200C5C493 /* Zhihua_TempleTests.swift */,
+				B78B1E111F3A3CD200C5C493 /* Info.plist */,
+			);
+			path = "Zhihua TempleTests";
+			sourceTree = "<group>";
+		};
+		B78B1E191F3A3CD200C5C493 /* Zhihua TempleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B78B1E1A1F3A3CD200C5C493 /* Zhihua_TempleUITests.swift */,
+				B78B1E1C1F3A3CD200C5C493 /* Info.plist */,
+			);
+			path = "Zhihua TempleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B78B1DF31F3A3CD200C5C493 /* Zhihua Temple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78B1E1F1F3A3CD200C5C493 /* Build configuration list for PBXNativeTarget "Zhihua Temple" */;
+			buildPhases = (
+				B78B1DF01F3A3CD200C5C493 /* Sources */,
+				B78B1DF11F3A3CD200C5C493 /* Frameworks */,
+				B78B1DF21F3A3CD200C5C493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zhihua Temple";
+			productName = "Zhihua Temple";
+			productReference = B78B1DF41F3A3CD200C5C493 /* Zhihua Temple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B78B1E0A1F3A3CD200C5C493 /* Zhihua TempleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78B1E221F3A3CD200C5C493 /* Build configuration list for PBXNativeTarget "Zhihua TempleTests" */;
+			buildPhases = (
+				B78B1E071F3A3CD200C5C493 /* Sources */,
+				B78B1E081F3A3CD200C5C493 /* Frameworks */,
+				B78B1E091F3A3CD200C5C493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B78B1E0D1F3A3CD200C5C493 /* PBXTargetDependency */,
+			);
+			name = "Zhihua TempleTests";
+			productName = "Zhihua TempleTests";
+			productReference = B78B1E0B1F3A3CD200C5C493 /* Zhihua TempleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B78B1E151F3A3CD200C5C493 /* Zhihua TempleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78B1E251F3A3CD200C5C493 /* Build configuration list for PBXNativeTarget "Zhihua TempleUITests" */;
+			buildPhases = (
+				B78B1E121F3A3CD200C5C493 /* Sources */,
+				B78B1E131F3A3CD200C5C493 /* Frameworks */,
+				B78B1E141F3A3CD200C5C493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B78B1E181F3A3CD200C5C493 /* PBXTargetDependency */,
+			);
+			name = "Zhihua TempleUITests";
+			productName = "Zhihua TempleUITests";
+			productReference = B78B1E161F3A3CD200C5C493 /* Zhihua TempleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B78B1DEC1F3A3CD200C5C493 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = PMA;
+				TargetAttributes = {
+					B78B1DF31F3A3CD200C5C493 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = MK4M6X2HW4;
+						ProvisioningStyle = Automatic;
+					};
+					B78B1E0A1F3A3CD200C5C493 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = MK4M6X2HW4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B78B1DF31F3A3CD200C5C493;
+					};
+					B78B1E151F3A3CD200C5C493 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = MK4M6X2HW4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B78B1DF31F3A3CD200C5C493;
+					};
+				};
+			};
+			buildConfigurationList = B78B1DEF1F3A3CD200C5C493 /* Build configuration list for PBXProject "Zhihua Temple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B78B1DEB1F3A3CD200C5C493;
+			productRefGroup = B78B1DF51F3A3CD200C5C493 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B78B1DF31F3A3CD200C5C493 /* Zhihua Temple */,
+				B78B1E0A1F3A3CD200C5C493 /* Zhihua TempleTests */,
+				B78B1E151F3A3CD200C5C493 /* Zhihua TempleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B78B1DF21F3A3CD200C5C493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78B1E051F3A3CD200C5C493 /* LaunchScreen.storyboard in Resources */,
+				B78B1E021F3A3CD200C5C493 /* Assets.xcassets in Resources */,
+				B78B1DFD1F3A3CD200C5C493 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78B1E091F3A3CD200C5C493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78B1E141F3A3CD200C5C493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B78B1DF01F3A3CD200C5C493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78B1E001F3A3CD200C5C493 /* Zhihua_Temple.xcdatamodeld in Sources */,
+				B78B1DFA1F3A3CD200C5C493 /* ViewController.swift in Sources */,
+				B78B1DF81F3A3CD200C5C493 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78B1E071F3A3CD200C5C493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78B1E101F3A3CD200C5C493 /* Zhihua_TempleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78B1E121F3A3CD200C5C493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78B1E1B1F3A3CD200C5C493 /* Zhihua_TempleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B78B1E0D1F3A3CD200C5C493 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B78B1DF31F3A3CD200C5C493 /* Zhihua Temple */;
+			targetProxy = B78B1E0C1F3A3CD200C5C493 /* PBXContainerItemProxy */;
+		};
+		B78B1E181F3A3CD200C5C493 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B78B1DF31F3A3CD200C5C493 /* Zhihua Temple */;
+			targetProxy = B78B1E171F3A3CD200C5C493 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B78B1DFB1F3A3CD200C5C493 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B78B1DFC1F3A3CD200C5C493 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B78B1E031F3A3CD200C5C493 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B78B1E041F3A3CD200C5C493 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B78B1E1D1F3A3CD200C5C493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B78B1E1E1F3A3CD200C5C493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B78B1E201F3A3CD200C5C493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MK4M6X2HW4;
+				INFOPLIST_FILE = "Zhihua Temple/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pma.Chinese-Temple.Zhihua-Temple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B78B1E211F3A3CD200C5C493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MK4M6X2HW4;
+				INFOPLIST_FILE = "Zhihua Temple/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pma.Chinese-Temple.Zhihua-Temple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B78B1E231F3A3CD200C5C493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MK4M6X2HW4;
+				INFOPLIST_FILE = "Zhihua TempleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pma.Chinese-Temple.Zhihua-TempleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zhihua Temple.app/Zhihua Temple";
+			};
+			name = Debug;
+		};
+		B78B1E241F3A3CD200C5C493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MK4M6X2HW4;
+				INFOPLIST_FILE = "Zhihua TempleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pma.Chinese-Temple.Zhihua-TempleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zhihua Temple.app/Zhihua Temple";
+			};
+			name = Release;
+		};
+		B78B1E261F3A3CD200C5C493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MK4M6X2HW4;
+				INFOPLIST_FILE = "Zhihua TempleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pma.Chinese-Temple.Zhihua-TempleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Zhihua Temple";
+			};
+			name = Debug;
+		};
+		B78B1E271F3A3CD200C5C493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MK4M6X2HW4;
+				INFOPLIST_FILE = "Zhihua TempleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pma.Chinese-Temple.Zhihua-TempleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Zhihua Temple";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B78B1DEF1F3A3CD200C5C493 /* Build configuration list for PBXProject "Zhihua Temple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78B1E1D1F3A3CD200C5C493 /* Debug */,
+				B78B1E1E1F3A3CD200C5C493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B78B1E1F1F3A3CD200C5C493 /* Build configuration list for PBXNativeTarget "Zhihua Temple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78B1E201F3A3CD200C5C493 /* Debug */,
+				B78B1E211F3A3CD200C5C493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B78B1E221F3A3CD200C5C493 /* Build configuration list for PBXNativeTarget "Zhihua TempleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78B1E231F3A3CD200C5C493 /* Debug */,
+				B78B1E241F3A3CD200C5C493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B78B1E251F3A3CD200C5C493 /* Build configuration list for PBXNativeTarget "Zhihua TempleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78B1E261F3A3CD200C5C493 /* Debug */,
+				B78B1E271F3A3CD200C5C493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B78B1DFE1F3A3CD200C5C493 /* Zhihua_Temple.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B78B1DFF1F3A3CD200C5C493 /* Zhihua_Temple.xcdatamodel */,
+			);
+			currentVersion = B78B1DFF1F3A3CD200C5C493 /* Zhihua_Temple.xcdatamodel */;
+			path = Zhihua_Temple.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B78B1DEC1F3A3CD200C5C493 /* Project object */;
+}
