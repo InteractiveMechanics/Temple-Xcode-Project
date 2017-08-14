@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2233E6874954999D6C8EF363 /* Pods_Zhihua_Temple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A571FD17C1051DF233CE67AD /* Pods_Zhihua_Temple.framework */; };
+		6C4B63A49CF4989CEFF2C8AB /* Pods_Zhihua_TempleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C38C1D71138BAFBBD1F69D /* Pods_Zhihua_TempleTests.framework */; };
+		B75892631F3CA3B3007B7E11 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75892621F3CA3B2007B7E11 /* Utils.swift */; };
+		B75892651F3CA3D6007B7E11 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75892641F3CA3D6007B7E11 /* Util.swift */; };
 		B78B1DF81F3A3CD200C5C493 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B1DF71F3A3CD200C5C493 /* AppDelegate.swift */; };
 		B78B1DFA1F3A3CD200C5C493 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B1DF91F3A3CD200C5C493 /* ViewController.swift */; };
 		B78B1DFD1F3A3CD200C5C493 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B78B1DFB1F3A3CD200C5C493 /* Main.storyboard */; };
@@ -15,6 +19,9 @@
 		B78B1E051F3A3CD200C5C493 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B78B1E031F3A3CD200C5C493 /* LaunchScreen.storyboard */; };
 		B78B1E101F3A3CD200C5C493 /* Zhihua_TempleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B1E0F1F3A3CD200C5C493 /* Zhihua_TempleTests.swift */; };
 		B78B1E1B1F3A3CD200C5C493 /* Zhihua_TempleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B1E1A1F3A3CD200C5C493 /* Zhihua_TempleUITests.swift */; };
+		B78B1E291F3A3DC500C5C493 /* pma in Resources */ = {isa = PBXBuildFile; fileRef = B78B1E281F3A3DC500C5C493 /* pma */; };
+		B7B5E2181F3E32D0009AC499 /* mobileFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B5E2151F3E3290009AC499 /* mobileFramework.framework */; };
+		CDFA9649B74C37891BDBE4DD /* Pods_Zhihua_TempleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F1EB4AED7F8D19C60F3DE1 /* Pods_Zhihua_TempleUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,9 +39,31 @@
 			remoteGlobalIDString = B78B1DF31F3A3CD200C5C493;
 			remoteInfo = "Zhihua Temple";
 		};
+		B7B5E2141F3E3290009AC499 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7B5E20F1F3E3290009AC499 /* mobileFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A5FC1C8D1EA7F96F00669C89;
+			remoteInfo = mobileFramework;
+		};
+		B7B5E2161F3E3290009AC499 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7B5E20F1F3E3290009AC499 /* mobileFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A5FC1C961EA7F96F00669C89;
+			remoteInfo = mobileFrameworkTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B52B89D33400B6506738E6D /* Pods-Zhihua TempleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zhihua TempleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zhihua TempleUITests/Pods-Zhihua TempleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3671878DF4D5B863CAB9F8B9 /* Pods-Zhihua Temple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zhihua Temple.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zhihua Temple/Pods-Zhihua Temple.release.xcconfig"; sourceTree = "<group>"; };
+		61F1EB4AED7F8D19C60F3DE1 /* Pods_Zhihua_TempleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zhihua_TempleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A75A2C344C53E9103C0AEE3 /* Pods-Zhihua TempleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zhihua TempleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zhihua TempleTests/Pods-Zhihua TempleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		80C38C1D71138BAFBBD1F69D /* Pods_Zhihua_TempleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zhihua_TempleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A571FD17C1051DF233CE67AD /* Pods_Zhihua_Temple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zhihua_Temple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75892621F3CA3B2007B7E11 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		B75892641F3CA3D6007B7E11 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		B78B1DF41F3A3CD200C5C493 /* Zhihua Temple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zhihua Temple.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B78B1DF71F3A3CD200C5C493 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B78B1DF91F3A3CD200C5C493 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +78,11 @@
 		B78B1E161F3A3CD200C5C493 /* Zhihua TempleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zhihua TempleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B78B1E1A1F3A3CD200C5C493 /* Zhihua_TempleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zhihua_TempleUITests.swift; sourceTree = "<group>"; };
 		B78B1E1C1F3A3CD200C5C493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B78B1E281F3A3DC500C5C493 /* pma */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pma; sourceTree = "<group>"; };
+		B7B5E20F1F3E3290009AC499 /* mobileFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mobileFramework.xcodeproj; path = ../../mobileFramework/mobileFramework.xcodeproj; sourceTree = "<group>"; };
+		C5974D816D958FFE88DFB1BB /* Pods-Zhihua TempleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zhihua TempleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zhihua TempleTests/Pods-Zhihua TempleTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED8ED504BD3A861E07386DF0 /* Pods-Zhihua Temple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zhihua Temple.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zhihua Temple/Pods-Zhihua Temple.debug.xcconfig"; sourceTree = "<group>"; };
+		F9E41395CF0130F287CE6921 /* Pods-Zhihua TempleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zhihua TempleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zhihua TempleUITests/Pods-Zhihua TempleUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7B5E2181F3E32D0009AC499 /* mobileFramework.framework in Frameworks */,
+				2233E6874954999D6C8EF363 /* Pods_Zhihua_Temple.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C4B63A49CF4989CEFF2C8AB /* Pods_Zhihua_TempleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +107,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDFA9649B74C37891BDBE4DD /* Pods_Zhihua_TempleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		660BA54658E34C35181F145E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A571FD17C1051DF233CE67AD /* Pods_Zhihua_Temple.framework */,
+				80C38C1D71138BAFBBD1F69D /* Pods_Zhihua_TempleTests.framework */,
+				61F1EB4AED7F8D19C60F3DE1 /* Pods_Zhihua_TempleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2DE8B2E3ED67CA025D71149 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED8ED504BD3A861E07386DF0 /* Pods-Zhihua Temple.debug.xcconfig */,
+				3671878DF4D5B863CAB9F8B9 /* Pods-Zhihua Temple.release.xcconfig */,
+				7A75A2C344C53E9103C0AEE3 /* Pods-Zhihua TempleTests.debug.xcconfig */,
+				C5974D816D958FFE88DFB1BB /* Pods-Zhihua TempleTests.release.xcconfig */,
+				0B52B89D33400B6506738E6D /* Pods-Zhihua TempleUITests.debug.xcconfig */,
+				F9E41395CF0130F287CE6921 /* Pods-Zhihua TempleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B78B1DEB1F3A3CD200C5C493 = {
 			isa = PBXGroup;
 			children = (
+				B7B5E20F1F3E3290009AC499 /* mobileFramework.xcodeproj */,
 				B78B1DF61F3A3CD200C5C493 /* Zhihua Temple */,
 				B78B1E0E1F3A3CD200C5C493 /* Zhihua TempleTests */,
 				B78B1E191F3A3CD200C5C493 /* Zhihua TempleUITests */,
 				B78B1DF51F3A3CD200C5C493 /* Products */,
+				A2DE8B2E3ED67CA025D71149 /* Pods */,
+				660BA54658E34C35181F145E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +163,8 @@
 		B78B1DF61F3A3CD200C5C493 /* Zhihua Temple */ = {
 			isa = PBXGroup;
 			children = (
+				B75892641F3CA3D6007B7E11 /* Util.swift */,
+				B78B1E281F3A3DC500C5C493 /* pma */,
 				B78B1DF71F3A3CD200C5C493 /* AppDelegate.swift */,
 				B78B1DF91F3A3CD200C5C493 /* ViewController.swift */,
 				B78B1DFB1F3A3CD200C5C493 /* Main.storyboard */,
@@ -106,6 +172,7 @@
 				B78B1E031F3A3CD200C5C493 /* LaunchScreen.storyboard */,
 				B78B1E061F3A3CD200C5C493 /* Info.plist */,
 				B78B1DFE1F3A3CD200C5C493 /* Zhihua_Temple.xcdatamodeld */,
+				B75892621F3CA3B2007B7E11 /* Utils.swift */,
 			);
 			path = "Zhihua Temple";
 			sourceTree = "<group>";
@@ -128,6 +195,15 @@
 			path = "Zhihua TempleUITests";
 			sourceTree = "<group>";
 		};
+		B7B5E2101F3E3290009AC499 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7B5E2151F3E3290009AC499 /* mobileFramework.framework */,
+				B7B5E2171F3E3290009AC499 /* mobileFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B78B1E1F1F3A3CD200C5C493 /* Build configuration list for PBXNativeTarget "Zhihua Temple" */;
 			buildPhases = (
+				4F02E5AAEDCE18178F2483D2 /* [CP] Check Pods Manifest.lock */,
 				B78B1DF01F3A3CD200C5C493 /* Sources */,
 				B78B1DF11F3A3CD200C5C493 /* Frameworks */,
 				B78B1DF21F3A3CD200C5C493 /* Resources */,
+				58CA710B98231847C141AFC3 /* [CP] Embed Pods Frameworks */,
+				7D7819786F95026559D9C577 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B78B1E221F3A3CD200C5C493 /* Build configuration list for PBXNativeTarget "Zhihua TempleTests" */;
 			buildPhases = (
+				72513A361DE5FD07D6705D7B /* [CP] Check Pods Manifest.lock */,
 				B78B1E071F3A3CD200C5C493 /* Sources */,
 				B78B1E081F3A3CD200C5C493 /* Frameworks */,
 				B78B1E091F3A3CD200C5C493 /* Resources */,
+				26BC7D1268F98B03C8EEAF31 /* [CP] Embed Pods Frameworks */,
+				3844C50C043254F2170C301A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +252,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B78B1E251F3A3CD200C5C493 /* Build configuration list for PBXNativeTarget "Zhihua TempleUITests" */;
 			buildPhases = (
+				5E5F92D63C060E431A7B409B /* [CP] Check Pods Manifest.lock */,
 				B78B1E121F3A3CD200C5C493 /* Sources */,
 				B78B1E131F3A3CD200C5C493 /* Frameworks */,
 				B78B1E141F3A3CD200C5C493 /* Resources */,
+				F82FA9CBE8F0EA9ABD5972E6 /* [CP] Embed Pods Frameworks */,
+				5A9A5F1C530B8C94231F9818 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,6 +283,11 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = MK4M6X2HW4;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					B78B1E0A1F3A3CD200C5C493 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -224,6 +314,12 @@
 			mainGroup = B78B1DEB1F3A3CD200C5C493;
 			productRefGroup = B78B1DF51F3A3CD200C5C493 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B7B5E2101F3E3290009AC499 /* Products */;
+					ProjectRef = B7B5E20F1F3E3290009AC499 /* mobileFramework.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B78B1DF31F3A3CD200C5C493 /* Zhihua Temple */,
@@ -233,12 +329,30 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		B7B5E2151F3E3290009AC499 /* mobileFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = mobileFramework.framework;
+			remoteRef = B7B5E2141F3E3290009AC499 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B7B5E2171F3E3290009AC499 /* mobileFrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = mobileFrameworkTests.xctest;
+			remoteRef = B7B5E2161F3E3290009AC499 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		B78B1DF21F3A3CD200C5C493 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B78B1E051F3A3CD200C5C493 /* LaunchScreen.storyboard in Resources */,
+				B78B1E291F3A3DC500C5C493 /* pma in Resources */,
 				B78B1E021F3A3CD200C5C493 /* Assets.xcassets in Resources */,
 				B78B1DFD1F3A3CD200C5C493 /* Main.storyboard in Resources */,
 			);
@@ -260,6 +374,163 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26BC7D1268F98B03C8EEAF31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Zhihua TempleTests/Pods-Zhihua TempleTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zhihua TempleTests/Pods-Zhihua TempleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3844C50C043254F2170C301A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zhihua TempleTests/Pods-Zhihua TempleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F02E5AAEDCE18178F2483D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zhihua Temple-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58CA710B98231847C141AFC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Zhihua Temple/Pods-Zhihua Temple-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zhihua Temple/Pods-Zhihua Temple-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A9A5F1C530B8C94231F9818 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zhihua TempleUITests/Pods-Zhihua TempleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E5F92D63C060E431A7B409B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zhihua TempleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72513A361DE5FD07D6705D7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zhihua TempleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D7819786F95026559D9C577 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zhihua Temple/Pods-Zhihua Temple-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F82FA9CBE8F0EA9ABD5972E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zhihua TempleUITests/Pods-Zhihua TempleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B78B1DF01F3A3CD200C5C493 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -267,7 +538,9 @@
 			files = (
 				B78B1E001F3A3CD200C5C493 /* Zhihua_Temple.xcdatamodeld in Sources */,
 				B78B1DFA1F3A3CD200C5C493 /* ViewController.swift in Sources */,
+				B75892651F3CA3D6007B7E11 /* Util.swift in Sources */,
 				B78B1DF81F3A3CD200C5C493 /* AppDelegate.swift in Sources */,
+				B75892631F3CA3B3007B7E11 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +692,7 @@
 		};
 		B78B1E201F3A3CD200C5C493 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED8ED504BD3A861E07386DF0 /* Pods-Zhihua Temple.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MK4M6X2HW4;
@@ -432,6 +706,7 @@
 		};
 		B78B1E211F3A3CD200C5C493 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3671878DF4D5B863CAB9F8B9 /* Pods-Zhihua Temple.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MK4M6X2HW4;
@@ -445,6 +720,7 @@
 		};
 		B78B1E231F3A3CD200C5C493 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A75A2C344C53E9103C0AEE3 /* Pods-Zhihua TempleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +736,7 @@
 		};
 		B78B1E241F3A3CD200C5C493 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5974D816D958FFE88DFB1BB /* Pods-Zhihua TempleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +752,7 @@
 		};
 		B78B1E261F3A3CD200C5C493 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B52B89D33400B6506738E6D /* Pods-Zhihua TempleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = MK4M6X2HW4;
@@ -489,6 +767,7 @@
 		};
 		B78B1E271F3A3CD200C5C493 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9E41395CF0130F287CE6921 /* Pods-Zhihua TempleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = MK4M6X2HW4;
@@ -520,6 +799,7 @@
 				B78B1E211F3A3CD200C5C493 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B78B1E221F3A3CD200C5C493 /* Build configuration list for PBXNativeTarget "Zhihua TempleTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +808,7 @@
 				B78B1E241F3A3CD200C5C493 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B78B1E251F3A3CD200C5C493 /* Build configuration list for PBXNativeTarget "Zhihua TempleUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +817,7 @@
 				B78B1E271F3A3CD200C5C493 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

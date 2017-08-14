@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1DF7CC0DE72642524D62DF7BEFD82A600F8D58E1" : 9223372036854775807,
+    "BC1814F83CA7B503DD347517DF9944A72898526E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1E88041A-E971-44DF-A190-FD93C19749FA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1DF7CC0DE72642524D62DF7BEFD82A600F8D58E1" : "Zhihua%20Temple\/Zhihua%20Temple\/pma\/",
+    "BC1814F83CA7B503DD347517DF9944A72898526E" : "..\/mobileFramework"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Zhihua Temple",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Zhihua Temple.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/InteractiveMechanics\/pma-zhihua-temple-ceiling.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1DF7CC0DE72642524D62DF7BEFD82A600F8D58E1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/philamuseum\/mobileFramework.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BC1814F83CA7B503DD347517DF9944A72898526E"
+    }
+  ]
+}
